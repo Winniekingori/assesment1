@@ -1,0 +1,15 @@
+import java.util.Arrays;
+
+public class MissingInteger
+{  
+  public static void main(String args[]){
+      int[] K= {1, N+1};
+         
+        int N = N+1 ;
+        int idealSum = (N * (N + 1)) / 2;
+        int sum = Arrays.stream(K).sum();
+ 
+        int missingInteger = idealSum - sum;
+    System.out.println("missingInteger");
+  }
+}
